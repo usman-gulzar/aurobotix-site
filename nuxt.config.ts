@@ -67,6 +67,9 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
+  // Required so `cloudflare-module` resolves to the ASSETS-based preset, not `cloudflare-module-legacy` (Workers Sites / __STATIC_CONTENT_MANIFEST).
+  compatibilityDate: '2024-09-19',
+
   // SSR enabled for SEO
   ssr: true,
 
