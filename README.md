@@ -112,3 +112,5 @@ All design tokens are in `assets/css/global.css` under `:root {}`.
 - [@vueuse/core](https://vueuse.org) — Vue utilities
 - Web Speech API — browser-native STT + TTS
 - No UI library — fully custom CSS
+
+
