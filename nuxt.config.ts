@@ -164,9 +164,10 @@ export default defineNuxtConfig({
 
   // Nitro for static generation
   nitro: {
+    preset: 'cloudflare-module',
     prerender: {
       routes: ['/'],
       crawlLinks: true
-    }
   }
+}
 })
